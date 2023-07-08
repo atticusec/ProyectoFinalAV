@@ -11,14 +11,13 @@ El optimizador Adam es un algoritmo de optimización popular utilizado en el ent
 
 ____________________________________________________
 
-
-En el código proporcionado, train_path, valid_path y test_path son rutas de directorio que indican la ubicación de los conjuntos de datos utilizados para entrenamiento, validación y pruebas, respectivamente, estas variables representan las rutas de los directorios donde se encuentran los datos de entrenamiento, validación (si está disponible) y prueba para un modelo de aprendizaje automático. Los datos en estos directorios se utilizarán para entrenar, ajustar y evaluar el modelo.
+Con train_path, valid_path y test_path son rutas de directorio que indican la ubicación de los conjuntos de datos utilizados para entrenamiento, validación y pruebas, respectivamente, estas variables representan las rutas de los directorios donde se encuentran los datos de entrenamiento, validación (si está disponible) y prueba para un modelo de aprendizaje automático. Los datos en estos directorios se utilizarán para entrenar, ajustar y evaluar el modelo.
 
 El generador de datos de imágenes train_batches se puede utilizar en un bucle para iterar a través de los lotes de datos de entrenamiento. Cada iteración proporcionará un lote de imágenes y sus correspondientes etiquetas de clase. Esto permite alimentar los datos de entrenamiento al modelo en lotes durante el entrenamiento.
 
 La función primero realiza algunas comprobaciones y transformaciones en los datos de las imágenes para asegurarse de que se puedan mostrar correctamente. Luego, crea una figura con el tamaño especificado por figsize y organiza las imágenes en una cuadrícula con el número de filas y columnas determinadas por rows y cols. Cada imagen se agrega a la figura en su posición correspondiente en la cuadrícula.
 
-Finalmente, se muestra la figura con las imágenes y títulos (si se proporcionan) utilizando plt.imshow() de Matplotlib.
+
 
 La función plot_confusion_matrix que proporcionaste es una función personalizada para trazar una matriz de confusión. Aquí está la explicación de cómo funciona:
 
@@ -32,7 +31,4 @@ title: El título de la figura que muestra la matriz de confusión.
 
 cmap: El mapa de colores que se utilizará para visualizar la matriz de confusión. Por defecto, se utiliza plt.cm.Blues.
 
-
-______________________________________________________________
-
-La función plot_confusion_matrix que proporcionaste es una función personalizada para imprimir y trazar una matriz de confusión. 
+La función plot_confusion_matrix es una función personalizada para imprimir y trazar una matriz de confusión. 
