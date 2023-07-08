@@ -23,7 +23,16 @@ Finalmente, se muestra la figura con las imágenes y títulos (si se proporciona
 La función plot_confusion_matrix que proporcionaste es una función personalizada para trazar una matriz de confusión. Aquí está la explicación de cómo funciona:
 
 cm: La matriz de confusión que se desea trazar. Debe ser una matriz NumPy que representa la matriz de confusión.
+
 classes: Una lista de etiquetas de clase que corresponden a las clases en la matriz de confusión.
+
 normalize: Un parámetro booleano que indica si se debe aplicar normalización a la matriz de confusión. Si se establece en True, la matriz de confusión se normalizará dividiendo cada valor por el total de la fila correspondiente. Esto puede ser útil para visualizar la distribución proporcional de las predicciones correctas e incorrectas. Por defecto, se establece en False.
+
 title: El título de la figura que muestra la matriz de confusión.
+
 cmap: El mapa de colores que se utilizará para visualizar la matriz de confusión. Por defecto, se utiliza plt.cm.Blues.
+
+
+______________________________________________________________
+
+La función plot_confusion_matrix que proporcionaste es una función personalizada para imprimir y trazar una matriz de confusión. 
