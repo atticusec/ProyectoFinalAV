@@ -32,3 +32,6 @@ title: El título de la figura que muestra la matriz de confusión.
 cmap: El mapa de colores que se utilizará para visualizar la matriz de confusión. Por defecto, se utiliza plt.cm.Blues.
 
 La función plot_confusion_matrix es una función personalizada para imprimir y trazar una matriz de confusión. 
+
+![image](https://github.com/atticusec/ProyectoFinalAV/assets/138344385/7fb5cb33-e04c-4ef8-b245-d7cdf95e1c3c)
+
